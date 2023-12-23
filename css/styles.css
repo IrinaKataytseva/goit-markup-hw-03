@@ -1,0 +1,159 @@
+/* Base styles */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+  
+  color: #434455;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+p {
+  color: #434455;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+
+a {
+  text-decoration: none;
+}
+/* Header 2 */
+.ourteam-title,
+.portfolio-title {
+  color:#2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+h3 {
+  color: #2e2f42;
+
+font-size: 20px;
+
+font-weight: 500;
+line-height: 1.2; /* 120% */
+letter-spacing: 0.02em;
+}
+
+/* --Головне меню навігації--> */
+.header {
+}
+.logo {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-dark {
+  color: #2e2f42;
+}
+
+.header-list-item {
+  color: inherit;
+}
+.header-link{
+  color:#2e2f42;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: #404bbf;
+}
+/* .header-link-studio:hover,
+.header-link-studio:focus,
+.header-link-studio:active {
+  color: #404bbf;
+} */
+
+/* --Пошта і телефон у шапці--> */
+address{
+  font-style: normal;
+}
+.address-item-link {
+  color: #434455;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+.address-item-link:hover,
+.address-item-link:focus {
+  color: #404bbf;
+}
+/* section hero */
+
+.hero {
+  background-color: #2e2f42;
+}
+
+.hero-title {
+  color: #fff;
+  text-align: center;
+  font-size: 56px;
+  line-height: 1.07; 
+  letter-spacing: 0.02em;
+}
+
+.button {
+  color: #fff;
+  background-color: #4d5ae5;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  
+}
+
+button:hover,
+button:focus {
+  background-color: #404bbf;
+}
+
+
+/* section advantages */
+.advantages-caption {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
+}
+.advantages-desc {
+}
+
+/* section our team */
+
+.ourteam{
+  background-color: #F4F4FD;
+}
+
+.ourteam-item {
+  background-color: #FFFFFF;
+}
+
+/* section portfolio */
+.portfolio-item{
+  background-color:  #FFF;
+}
+/* section footer */
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.logo-light {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  color: #f4f4fd;
+}
