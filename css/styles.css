@@ -31,6 +31,7 @@ p {
 img{
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 a {
@@ -238,8 +239,22 @@ button:focus {
   margin-top: 32px;
 }
 /* section portfolio */
+.portfolio-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
 .portfolio-item {
   background-color: #fff;
+  width: 360px;
+}
+.portfolio-name{
+margin-top: 32px;
+
+}
+.portfolio-desc{
+  margin-bottom: 32px;
 }
 /* section footer */
 
