@@ -110,7 +110,7 @@ h3 {
   border-bottom: 1px solid #e7e9fc
 }
 .logo {
-  display: inline-block;
+ 
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -139,7 +139,7 @@ h3 {
   color: inherit;
 }
 .header-link {
-  display: block;
+  display: inline-block;
   padding-top: 24px;
   padding-bottom: 24px;
 
