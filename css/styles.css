@@ -107,6 +107,7 @@ h3 {
 
 /* --Головне меню навігації--> */
 .header {
+  border-bottom: 1px solid #e7e9fc
 }
 .logo {
   color: #4d5ae5;
@@ -117,10 +118,11 @@ h3 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   display: inline-flex;
+  margin-right: 76px;
 }
 .logo-dark {
   color: #2e2f42;
-  margin-right: 76px;
+  
 }
 .header-nav {
   display: flex;
@@ -129,6 +131,7 @@ h3 {
 }
 .header-list {
   display: flex;
+  gap: 40px;
 }
 
 .header-list-item {
@@ -161,6 +164,7 @@ h3 {
 }
 .address-list {
   display: flex;
+  gap: 40px;
 }
 .address-item-link {
   color: #434455;
@@ -194,6 +198,7 @@ h3 {
   line-height: 1.07;
   letter-spacing: 0.02em;
   margin-bottom: 48px;
+  max-width: 496px;
 }
 
 .button {
@@ -207,6 +212,10 @@ h3 {
 
   padding: 16px 32px;
   border-radius: 4px;
+
+  min-width: 169px;
+  height: 56px;
+  border: none; 
 }
 
 button:hover,
@@ -222,7 +231,7 @@ button:focus {
 }
 
 .advantages-item {
-  width: calc((100% - 3 * 24) / 4)px;
+  width: calc((100% - 3 * 24px) / 4);
 }
 .advantages-caption {
   font-size: 20px;
@@ -245,20 +254,21 @@ button:focus {
 }
 .ourteam-item {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 .ourteam-content{
   display: flex;
   flex-direction: column;
-margin: 32px 16px;
+margin: 32px 0;
 gap: 8px;
 align-items: center;
 justify-content: center;
-border-radius: 0px 0px 4px 4px;
+
 }
-/* 
+
 .ourteam-name{
-  margin-top: 32px;
-} */
+  стиль text-align: center;
+} 
 
 
 
@@ -267,6 +277,7 @@ border-radius: 0px 0px 4px 4px;
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px; 
 }
 
 .portfolio-item {
@@ -296,16 +307,15 @@ margin-top: 32px;
 
 .footer-container {
   display: flex;
-  padding-top: 101px;
-  /* padding-right: 331px; */
-  padding-bottom: 100px;
-  gap: 18px;
   flex-direction: column;
   align-items:start
 }
 
 .footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  /* padding-right: 331px; */
+  padding-bottom: 100px;
 }
 
 .logo-light {
@@ -318,9 +328,9 @@ margin-top: 32px;
 
   
 }
-/* 
+ 
 .footer .logo{
-  margin-top: 101px ;
-  margin-bottom: 18px;
+  display: inline-block; 
+  margin-bottom: 16px; 
 }
- */
+ 
