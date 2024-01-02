@@ -323,10 +323,10 @@ margin-top: 32px;
   /* padding-right: 331px; */
   padding-bottom: 100px;
 }
-/* .footer .logo{
-  display: inline-block;
+.footer .logo{
+  /* display: inline-block; */
   margin-bottom: 16px; 
-} */
+}
 .logo-light {
   /* display: inline-block; */
   color: #f4f4fd;
